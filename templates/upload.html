@@ -1,0 +1,24 @@
+<form action="/upload" method="post" enctype="multipart/form-data">
+    <label for="file">File: </label>
+    <input type="file" name="file" id="file"><br/>
+    <div id="optionsContainer">
+    <h2>Select an option:</h2>
+    <label for="urduOption">
+      Urdu
+      <input type="radio" id="urduOption" name="option" value="urdu">
+    </label>
+    <label for="englishOption">
+      English
+      <input type="radio" id="englishOption" name="option" value="english">
+    </label>
+    <label for="romanUrduOption">
+      Roman Urdu
+      <input type="radio" id="romanUrduOption" name="option" value="roman_urdu">
+    </label>
+    <label for="romanUrduMixOption">
+      Roman Urdu Mix
+      <input type="radio" id="romanUrduMixOption" name="option" value="roman_urdu_mix">
+    </label>
+    <button type="submit">Upload</button>
+  </div>
+</form>
